@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #BAFFFF;
+}
+
+.container {
+
+    width: 30%;
+    border-radius: 30px;
+    display: grid;
+    background-color: #CFD28B;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 20px 20px 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+}
+
+.icon {
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    background-color: #E4E6E7;
+}
+
+.user-bio {
+    margin-left: 25px;
+}
